@@ -45,7 +45,7 @@ FROM station
 ORDER BY LEN(city), city;
 
 -- QUERY 2
--- Select the city with the shortest name and its length
+-- Select the city with the longest name and its length
 SELECT TOP 1 city, LEN(city) AS name_length
 -- The data is retrieved from the station table again
 FROM station
